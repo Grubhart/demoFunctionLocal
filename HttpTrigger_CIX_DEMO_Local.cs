@@ -27,7 +27,7 @@ namespace Company.Function
 
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "Trigger ejecutado con Exito ingresa un nombre para una respuesta personalizada."
-                : $"Hola, {name}. Funcion ejecutada con Exito";
+                : $"Hola, {name}. Funcion ejecutada con Exito con cambios desde github";
 
             return new OkObjectResult(responseMessage);
         }
